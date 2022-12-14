@@ -1,7 +1,9 @@
+import { Button } from "../components/Button";
+
 export default function Home() {
   return (
-    <div className="bg-blue-500 w-full h-full m-0">
-      
+    <div className="">
+      <Button>Hello there</Button>
     </div>
   )
 }
